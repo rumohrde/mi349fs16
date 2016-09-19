@@ -1,0 +1,20 @@
+h1{
+  text-align: center;
+  color: #ccc;
+}
+h2{
+  text-align: center;
+  color: #aaa;
+}
+.girl:hover{
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.guy1:hover{
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.guy2:hover{
+  transform: rotate(180deg);
+  display: inline-block;
+}
