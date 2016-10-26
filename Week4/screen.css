@@ -1,0 +1,43 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+}
+#nav {
+	list-style-type: none;
+	text-align:center;
+}
+#nav li {
+	display: inline;
+	background-color:#FFFFFF;
+	padding:7px;
+	margin-left:-6px;
+}
+#nav a:hover {
+	color: #2A9BCC;	
+}
+
+#nav a {
+text-decoration: none;	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
