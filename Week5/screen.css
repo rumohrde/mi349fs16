@@ -1,0 +1,26 @@
+#nav {
+	list-style-type: none;
+	text-align:center;
+}
+#nav li {
+	display: inline;
+	background-color:#FFFFFF;
+	padding:7px;
+	margin-left:-6px;
+}
+#nav a:hover {
+	color: #2A9BCC;	
+}
+
+#nav a {
+text-decoration: none;	
+}
+
+.classy {
+  background-color: #CCF;
+}
+
+#H1 {
+   text-align: center;
+   color: #ccc;
+}
