@@ -1,0 +1,23 @@
+h1 {
+	color: #009933;
+}
+
+h2 {
+	color: #999966;
+}
+
+html {
+	background: #66ccFF;
+}
+
+a {
+	color: #cc0000;
+}
+
+a:active {
+	background-color: #cc0000;
+}
+
+a:visited{
+	background-color: #cc0000;
+}
