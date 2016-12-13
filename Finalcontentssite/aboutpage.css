@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+
+/* the html element below is the "background" of your page */
+html {
+	background-image:url(stardust_@2X.png);
+}
+
+body {
+	background-image:url(stardust_@2X.png);
+	font-family: 'Hind', sans-serif;
+	color:#fff;
+}
+.content {
+    display: flex;
+}
+.content section{
+  padding: 1em;
+  flex:3 0 0;
+}
+.content section:first-of-type{
+  flex:1 0 0;
+}
+.content section:last-of-type{
+  flex:1 0 0;
+}
+#linkdn{
+	float:right;
+	padding-right:20px;
+	padding-top: 5px;
+}
+#resumes{
+	text-align: center;
+	color: #ffd700;
+}
+
+@media(max-width: 500px){
+	#responsive{margin-top: 450px}
+}
+
+header{
+	height:170px;
+	background-image:url(stardust_@2X.png);
+	background:cover;
+	width:100%;
+	z-index: 10;
+	position: fixed;
+}
+
+input[type="name"] {
+      border: 0;
+      padding: 50px;
+      font-size: 28px;
+      text-align: center;
+    }
+    input[type="text"] {
+      border: 0;
+      padding: 50px;
+      font-size: 28px;
+      text-align: center;
+    }
+    input[type="submit"] {
+      background: #e6e600;
+      color: black;
+       padding: 30px;
+       margin-left: 20px;
+    } 
+
+#me{
+	float: left;
+	margin-left:50px;
+	margin-top: 30px;
+	border-color: #008000;
+	border-style: solid;
+	border-width: 5px;
+}
+.contactme{
+	float: right;
+	margin-top: -175px;
+	margin-right: 65px;
+	float:bottom;
+	border-color: #008000;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#joinme{
+	color: #e6e600;
+	font-size: 75px;
+}
+
+#goodfont{
+	font-family: 'Indie Flower', cursive;
+	}
+
+h1 {
+	background-image:url(WXyEtPt.jpg);
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 50px;
+	margin-top: -10px;
+
+
+}
+
+#footer{
+	background-color:#008000;
+	padding-left:58px;
+	width:100%;
+	margin-left:-50px;
+	color:#000000;
+	margin-bottom:-66px;
+}
+#w3{
+	float:right;
+	padding-right:20px;
+	padding-top:20px;
+}
+
+#nav {
+	list-style-type: none;
+	text-align:center;
+}
+#nav li {
+	display: inline;
+	background-color:#FFFFFF;
+	padding:20px;
+	margin-left:-6px;
+}
+#nav a:hover {
+	color: #e6e600;	
+}
+
+#nav a {
+text-decoration: none;	
+}
+
+
+h2 {
+	color: #008000;
+	text-align: center;
+	margin-left: 150px;
+}
+
+h3 {
+	color: #008000;
+}
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+
+#experiencehead{
+	color: black;
+	text-align: center;
+}
+#futureplan{
+	text-align: center;
+}
+#hindsight{
+	color: black;
+}
+
+ol {
+list-style-image:url(starforfirstimage.jpg);
+}
+
+ul{
+	text-align: center;
+}
+/* The code below here alters your links */
+a {
+  font-weight:bold;
+  color: #e6e600
+}
+
+a:hover {
+	font-weight:bold;
+	text-decoration:underline;
+	color: #e6e600;
+}
+
+a:visited {
+   color:#003300;
+}
+
+a:active {
+	background-color:#e6e600;
+}
